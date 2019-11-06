@@ -56,8 +56,8 @@ df.head()
 
 
 
-```html
-<div>
+
+<div markdown="1">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -156,7 +156,7 @@ df.head()
   </tbody>
 </table>
 </div>
-```
+
 
 
 
@@ -167,7 +167,7 @@ df.describe()
 
 
 
-<div>
+<div markdown="1">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -317,7 +317,7 @@ profilereport
 
 
 
-<meta charset="UTF-8">
+<meta charset="UTF-8" markdown="1">
 
 <style>
 
@@ -533,7 +533,7 @@ profilereport
 
 </style>
 
-<div class="container pandas-profiling">
+<div class="container pandas-profiling" markdown="1">
     <div class="row headerrow highlight">
         <h1>Overview</h1>
     </div>
@@ -669,10 +669,10 @@ profilereport
     </div>
 </div>
 <div class="col-md-3 collapse in" id="minihistogram2311462699485699952">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABLCAYAAAA1fMjoAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAPYQAAD2EBqD%2BnaQAAADl0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uIDIuMS4wLCBodHRwOi8vbWF0cGxvdGxpYi5vcmcvpW3flQAAAbVJREFUeJzt3DGOm1AUhtGLNS0swIJdZBHZU%2BrsKYvILkBeAFaKFDEpEqeZmT8ZS/MI0jklFrrP4n1CNK/btm2rxpZlqWmaWo/l4OZ5rnEcm858ajrtt77vq%2BrXHx6GYY8lcCDrutY0TX/2TUu7BNJ1XVVVDcPwLJAPn740WcPXzx/ffM9b1/bIDF533zctnZpPhAMRCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIdjkX63/Q4vytVmd8tdDiHLFH57wnbxAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgWCXU022bauqqnVdn/324/u31svhH7z0rP7mkWf50pz7tfu%2Baanbdpi6LEtN09R6LAc3z3ON49h05i6B3G63ulwu1fd9dV3XejwHs21bXa/XOp/PdTq1/SrYJRA4Ch/pEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQ/AedpU8KKJUg/AAAAAElFTkSuQmCC">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABLCAYAAAA1fMjoAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAPYQAAD2EBqD%2BnaQAAADl0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uIDIuMS4wLCBodHRwOi8vbWF0cGxvdGxpYi5vcmcvpW3flQAAAbVJREFUeJzt3DGOm1AUhtGLNS0swIJdZBHZU%2BrsKYvILkBeAFaKFDEpEqeZmT8ZS/MI0jklFrrP4n1CNK/btm2rxpZlqWmaWo/l4OZ5rnEcm858ajrtt77vq%2BrXHx6GYY8lcCDrutY0TX/2TUu7BNJ1XVVVDcPwLJAPn740WcPXzx/ffM9b1/bIDF533zctnZpPhAMRCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIdjkX63/Q4vytVmd8tdDiHLFH57wnbxAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgWCXU022bauqqnVdn/324/u31svhH7z0rP7mkWf50pz7tfu%2Baanbdpi6LEtN09R6LAc3z3ON49h05i6B3G63ulwu1fd9dV3XejwHs21bXa/XOp/PdTq1/SrYJRA4Ch/pEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQ/AedpU8KKJUg/AAAAAElFTkSuQmCC" markdown="1">
 
 </div>
-<div class="col-md-12 text-right">
+<div class="col-md-12 text-right" markdown="1">
     <a role="button" data-toggle="collapse" data-target="#descriptives2311462699485699952,#minihistogram2311462699485699952"
        aria-expanded="false" aria-controls="collapseExample">
         Toggle details
@@ -1031,7 +1031,7 @@ profilereport
     </div>
 </div>
 <div class="col-md-3 collapse in" id="minihistogram-9216223717743914426">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABLCAYAAAA1fMjoAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAPYQAAD2EBqD%2BnaQAAADl0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uIDIuMS4wLCBodHRwOi8vbWF0cGxvdGxpYi5vcmcvpW3flQAAAa9JREFUeJzt3DvO00AUhuHjiNZOH8W7YBHsiZqS/bAIdpEoC7BFQUGGAkLB5ZO4/OPf4nlKW9EZR/PKcjNDa61VZ9frteZ57j2WnbtcLnU%2Bn7vOfNF12lfjOFbVlweepmmLJbAjy7LUPM/f9k1PmwQyDENVVU3TJJDvvHz97rd/8/7NqydYyd/718/y2Dc9HbpPhB0RCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAINjkXK/mTs5T%2Bd/6zp%2BMNAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQbHKqSWutqqqWZfnh3qePH3ovh2fkZ3vice2xb3raJJB1Xauqap7nLcbzjB3f/vreuq51PB77LaaqhrZBlvf7vW63W43jWMMw9B7PzrTWal3XOp1OdTj0/SrYJBDYCx/pEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCASfARjfRkE4ongLAAAAAElFTkSuQmCC">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABLCAYAAAA1fMjoAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAPYQAAD2EBqD%2BnaQAAADl0RVh0U29mdHdhcmUAbWF0cGxvdGxpYiB2ZXJzaW9uIDIuMS4wLCBodHRwOi8vbWF0cGxvdGxpYi5vcmcvpW3flQAAAa9JREFUeJzt3DvO00AUhuHjiNZOH8W7YBHsiZqS/bAIdpEoC7BFQUGGAkLB5ZO4/OPf4nlKW9EZR/PKcjNDa61VZ9frteZ57j2WnbtcLnU%2Bn7vOfNF12lfjOFbVlweepmmLJbAjy7LUPM/f9k1PmwQyDENVVU3TJJDvvHz97rd/8/7NqydYyd/718/y2Dc9HbpPhB0RCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAINjkXK/mTs5T%2Bd/6zp%2BMNAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQbHKqSWutqqqWZfnh3qePH3ovh2fkZ3vice2xb3raJJB1Xauqap7nLcbzjB3f/vreuq51PB77LaaqhrZBlvf7vW63W43jWMMw9B7PzrTWal3XOp1OdTj0/SrYJBDYCx/pEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCASfARjfRkE4ongLAAAAAElFTkSuQmCC" markdown="1">
 
 </div>
 <div class="col-md-12 text-right">
